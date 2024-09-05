@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <style>
+      .hee {
+        text-align: center;
+        padding-top: 43px;
+        text-transform: uppercase;
+        /* font-family: "prague"; */
+        letter-spacing: 3px;
+        font-size: 25px;
+      }
+      .p {
+        text-align: justify;
+        line-height: 32px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+        padding-right: 21px;
+        font-size: 16px;
+        text-decoration: none;
+        margin-top: 1px;
+      }
+      .img {
+        width: 100%;
+        margin-top: 40px;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- animation link -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link href="css/responsive-video.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <!-- <img src="images/basket.jpg" alt="" style="height: 70px" /> -->
+        <i class="fas fa-shopping-basket"></i>
+        f<span style="color: #388d80">oo</span>dy
+      </a>
+
+      <nav class="navbar">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="product.html" class="nav-link">Products</a>
+        <a href="blog.html" class="nav-link">Blogs</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="images/moong.jpg" alt="" style="height: 52px" />
+          <div class="content">
+            <h3>moong dal</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="images/cart-img-2.png" alt="" />
+          <div class="content">
+            <h3>onion</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="images/turmeric.jpg" alt="" />
+          <div class="content">
+            <h3>turmeric</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : $19.69/-</div>
+        <a href="#" class="btn">checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+    <!-- navbar end -->
+
+    <!-- banner start -->
+    <div class="main-content">
+      <div class="page-headi">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>OUR TEAM</h1>
+              <span>
+                <a href="index.html">HOME/</a>
+                about
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <div class="container-fluid">
+      <div class="container">
+        <!-- <h1 class="hee">WELCOME TO <b style="color: #388d80">OUR STORE</b></h1> -->
+        <br />
+        <div class="row">
+          <div class="col-md-7">
+            <h1 class="hee">
+              WELCOME TO <b style="color: #388d80">OUR STORE</b>
+            </h1>
+            <br /><br />
+            <p class="p">
+              Welcome to Our Grocery Store! We are the premier destination for
+              all of your grocery needs. Our selection includes fresh produce,
+              quality meats, dairy products, and a wide variety of pantry items.
+              We strive to provide our customers with the best shopping
+              experience possible. Our knowledgeable staff is always available
+              to answer any questions or assist you with finding the perfect
+              product. Thank you for choosing Our Grocery Store!
+            </p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="images/about.jpg" class="img shadow-lg bg-body-rounded" style="margin-bottom: 18px;" />
+          </div>
+          <div>
+            <button
+              class="btn"
+              type="submit"
+              style="
+                color: #ffffff;
+                padding: 10px 85px;
+                box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%),
+                  0 6px 20px 0 rgb(0 0 0 / 19%);
+                background-color: #388d80;
+              "
+            >
+              Read More...
+            </button>
+          </div>
+        </div>
+        <!--row end-->
+    
+      <!--container end-->
+    </div>
+    </div>
+    <!--container end-->
+    <!-- service start -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Grocery <span>delivery</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/shopping1.jpg" alt="" />
+          <div class="content">
+            <!-- <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by user </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+            </div> -->
+            <h3 style="font-size: 3.2rem">Choose what you want</h3>
+            <p style="font-size: 1.7rem">
+              Select items from your favorite grocery stores at foody.com or
+              in the app.
+            </p>
+            <!-- <a href="#" class="btn">read more</a> -->
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/shopping2.jpg" alt="" />
+          <div class="content">
+            <!-- <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by user </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+            </div> -->
+            <h3 style="font-size: 3.2rem">See real-time updates</h3>
+            <p style="font-size: 1.7rem">
+              Personal shoppers pick items with care. Chat as they shop and
+              manage your order.
+            </p>
+            <!-- <a href="#" class="btn">read more</a> -->
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/shopping3.jpg" alt="" />
+          <div class="content">
+            <!-- <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by user </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+            </div> -->
+            <h3 style="font-size: 3.2rem">Get your items same day</h3>
+            <p style="font-size: 1.7rem">
+              Pick a convenient time for you. Enjoy foody’s 100% quality
+              guarantee on every order.
+            </p>
+            <!-- <a href="#" class="btn">read more</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="start">
+        <a href="#" class="btn" style="text-align: center">Start Shopping</a>
+      </div>
+    </section>
+    <!-- service end -->
+    <!-- team start-->
+    <section id="team">
+      <h1 class="heading">Our <span>Team</span></h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="team-member">
+              <div class="img-wrapper">
+                <img src="images/owner-1.jpg" alt="" style=" width: 325px;height: 310px;">
+                <div class="overlay"></div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-linkedin" style=" color: #388d80;"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>Jamuna Prasad Garg</h5>
+                <p style="font-size: 15px;">C.E.O</p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <div class="img-wrapper">
+                <img src="images/neha.jpg" alt="" style=" width: 325px;   height: 310px;">
+                <div class="overlay"></div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-linkedin" style=" color: #388d80;"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>Neha Garg</h5>
+                <p style="font-size: 15px;">chairman</p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <div class="img-wrapper">
+                <img src="images/owner-3.jpg" alt="" style=" width: 325px;   height: 310px;">
+                <div class="overlay"></div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-linkedin" style=" color: #388d80;"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>vasundhara Garg</h5>
+                <p style="font-size: 15px;">Director Finance & Legal</p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <div class="img-wrapper">
+                <img src="images/owner-4.jpg" alt="" style=" width: 325px;   height: 310px;">
+                <div class="overlay"></div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-linkedin" style=" color: #388d80;"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>nandini Garg</h5>
+                <p style="font-size: 15px;">Director Finance & Legal</p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <div class="img-wrapper">
+                <img src="images/review-1.webp" alt="" style="  width: 325px;    height: 310px;">
+                <div class="overlay"></div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-linkedin" style=" color: #388d80;"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>radheshyam garg</h5>
+                <p style="font-size: 15px;">senior advisor</p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <div class="img-wrapper">
+                <img src="images/review-2.jpeg" alt="" style="    height: 310px; width: 325px;">
+                <div class="overlay"></div>
+                <div class="social-links" >
+                  <a href="#"><i class="fab fa-facebook-f" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style=" color: #388d80;"></i></a>
+                  <a href="#"><i class="fab fa-linkedin" style=" color: #388d80;"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <h5>deepak garg</h5>
+                <p style="font-size: 15px;">general manager</p>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- team end -->
+
+   
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <div
+          style="
+            font-size: 2.5rem;
+            font-weight: bolder;
+            color: var(--black);
+            text-decoration: none;
+          "
+        >
+          f<span style="color: #388d80">oo</span>dy
+          <i class="fas fa-shopping-basket" style="color: #388d80"></i>
+        </div>
+        <p>
+          Welcome to our online grocery store! We offer a wide selection of
+          fresh, high quality groceries at competitive prices. Our goal is to
+          make your grocery shopping experience as convenient and enjoyable as
+          possible.
+        </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links">
+            <i class="fas fa-phone"></i> 9993549178
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-phone"></i> 8305401963
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-envelope"></i> anehagarg109@gmail.com
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-map-marker-alt"></i> sheopur, india - 476335
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> home
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> features
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> products
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> categories
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> review
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="images/payment.png" class="payment-img" alt="" />
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span> miss Neha Garg </span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
